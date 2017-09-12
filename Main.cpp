@@ -7,7 +7,7 @@ int main ()
 { 
     int reply;
     cout << "Hello Human. Welcome to Sequence Solver. Select An Operation." << endl;
-    cout << "1)Geometeric" << endl << "2)Arithmetic" << endl << "3)Gauss Formula" << endl << "4)Euclidean Algorithm (GCF)" << endl << "5)Euclidean Method (Sum)" << endl << "6)Convergent Formula" << endl;
+    cout << "1)Geometeric" << endl << "2)Arithmetic" << endl << "3)Gauss Formula (Sum) " << endl << "4)Euclidean Algorithm (GCF)" << endl << "5)Euclidean Method (Sum)" << endl << "6)Convergent Formula" << endl;
     cin >> reply;
     //Geometeric Function
     if (reply == 1) 
@@ -22,7 +22,7 @@ int main ()
         cin >> reply;
         if (reply == 1) 
         { 
-        cout << "A: ";
+        cout << "A1: ";
         cin >> a;
         cout << "R: ";
         cin >> r;
@@ -33,7 +33,7 @@ int main ()
         cout << a * pow (base, power);
         } else if (reply == 2)
         { 
-        cout << "A: ";
+        cout << "A1: ";
         cin >> a;
         cout << "R: ";
         cin >> r;
@@ -129,3 +129,5 @@ int main ()
         cout << g1 / (1 - r);
         return 0;
         } else { cout << "You did not follow instructions YOU LOSER"; return 0; } }
+
+
